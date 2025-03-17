@@ -46,7 +46,7 @@ class Program
         //apoi se incarca continutul fisierului
         htmlfile.LoadHtml(htmlsintax); 
         //functia intoarce textul fisierului
-        return htmlDoc.DocumentNode.InnerText; 
+        return htmlfile.DocumentNode.InnerText; 
     }
 
         static List<List<string>> GroupSimilarFiles(Dictionary<string, string> files)
